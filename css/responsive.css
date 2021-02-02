@@ -1,0 +1,133 @@
+@media (max-width: 1080px) {
+    /* start of large tablet styles */
+    .header-cont{
+        max-width:800px;
+        width:100%;
+        margin:0 auto;
+    }
+    .right-section{
+        width:500px;        
+    }
+    .left-section{
+        padding-right: 50px;
+    }
+    .section3{
+        background-color: #FAFAFA;
+        max-width: 1280px;
+        height: 100%;
+    }
+}
+@media (max-width: 767px) {
+    .header-cont{
+        max-width:600px;
+        width:100%;
+        margin:0 auto;
+    }
+    .section2{
+        display: flex;
+        flex-direction: column;
+    }
+        .section2 :nth-child(1) { order: 2;}
+        .section2 :nth-child(2) { order: 1;}
+    .right-section{
+        background-image: url(../img/right.jpg);
+        width: 800px;
+        height: 200px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+    .right-photo{
+        display: none;
+    }
+    .left-section{
+        padding-left: 81px;
+        padding-top: 50px;
+        margin-bottom: 50px;
+    }
+    .section-box{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .sec3-titles{
+        width: 590px;
+        height: 130px;
+        text-align: center;
+        margin-top: 87px;
+        margin-bottom: 50px;
+    }
+    .section3{
+        background-color: #FAFAFA;
+        max-width: 1280px;
+        height: 100%;
+    }
+}     
+@media (max-width: 479px) {
+    .bg-text{
+        font-size: 50px;
+    }
+    .sec3-titles{
+        width: 390px;
+    }
+    .header-cont{
+        max-width:400px;
+    }
+    .navbar{
+        display: none;
+    }
+    .burger{
+        height: 20px;
+        display: block;
+    }
+}
+@media (max-width: 375px) {
+    .header-wrapper{
+        height: 300px;
+    }
+    .sec2-title{
+        font-size: 30px;
+    }
+    .sec2-text{
+        font-size: 15px;
+        margin-top: 20px;
+        margin-bottom: 37px;
+    }
+    .button{
+        width: 187px;
+        height: 52px;
+    }
+    .button-txt {
+        font-size: 13px;
+        letter-spacing: normal;
+    }
+    .bg-text{
+        font-size: 30px;
+        height: 200px;
+    }
+    .sec3-titles{
+        width: 300px;
+        margin-top: 37px;
+        margin-bottom: 70px;
+    }
+    .sec3-title{
+        font-size: 30px;
+    }
+    .sec3-text{
+        font-size: 15px;
+    }
+    .header-cont{
+        max-width:285px;
+    }
+    .navbar{
+        display: none;
+    }
+    .burger{
+        height: 20px;
+        display: block;
+    }
+    .box{
+        width: 300px;
+    }
+}
